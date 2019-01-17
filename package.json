@@ -1,0 +1,17 @@
+{
+  "name": "poc_email_verify",
+  "version": "1.0.0",
+  "description": "POC",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.9"
+  }
+}

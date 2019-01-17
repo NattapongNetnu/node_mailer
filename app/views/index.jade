@@ -1,0 +1,11 @@
+html
+    head
+        title= title
+    body
+        h1= title
+        form(action="/register", name="register", method='post')
+            div
+                label(for='emial') Email: 
+                input(name='email', type='email', placeholder='youremail@email.com')
+            div
+                input(type='submit', value='Login')
